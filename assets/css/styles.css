@@ -13,17 +13,18 @@
  }
 
  a {
-   border: 2px solid black;
-   border-radius: 50%;
-   width: 10rem;
-   padding: 5px 10px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   margin: 4px 2px;
-   border-radius: 16px;
-   font-family: 'Lexend Deca', sans-serif;
- }
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 11rem;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  font-family: 'Lexend Deca', sans-serif;
+  text-wrap: nowrap;
+}
 
  li {
    display: inline;
@@ -46,7 +47,6 @@
  }
 
  h1 {
-   font-family: Roboto, sans-serif;
    text-align: center;
  }
 
@@ -63,20 +63,26 @@
    list-style-type: square;
    display: block;
    padding: 2px;
+   text-align:center
+   
  }
+
  h3 {
   text-align:center
  }
  .car {
   visibility:hidden;
  }
-
  a:hover .car {
   visibility: visible;
+  font-size:larger;
 }
 a:active .car {
   visibility: visible;
-  font-size:large
+  font-size:x-large
 
+}
+img {
+  
 }
  
